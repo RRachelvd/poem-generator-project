@@ -1,7 +1,8 @@
 body {
   background: url(pinkflowers-background.jpg) #ad8c97;
-  background-repeat: no-repeat;
   font-family: "Molengo", serif;
+  background-position: top;
+  background-size: auto;
 }
 
 h1 {
