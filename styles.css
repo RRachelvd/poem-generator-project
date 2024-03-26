@@ -1,12 +1,12 @@
 body {
   background: url(pinkflowers-background.jpg) pink;
   background-repeat: no-repeat;
-  font-family: "Merriweather", serif;
+  font-family: "Molengo", serif;
 }
 
 h1 {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 900;
   line-height: 1.5;
   color: white;
@@ -37,6 +37,7 @@ form {
   font-size: 16px;
   border-radius: 25px;
   line-height: 20px;
+  font-family: "Molengo", serif;
 }
 
 .button {
@@ -47,7 +48,9 @@ form {
   padding: 14px 24px;
   border-radius: 25px;
   width: 120px;
-  font-size: 16px;
+  font-size: 17px;
+  font-family: "Molengo", serif;
+  font-weight: 550;
 }
 
 .container {
@@ -68,7 +71,6 @@ form {
 
 footer {
   text-align: center;
-  font-family: monospace;
   padding-top: 20px;
   color: white;
   font-size: 15px;
@@ -77,4 +79,5 @@ footer {
 a {
   text-decoration: none;
   color: rebeccapurple;
+  font-weight: 600;
 }
