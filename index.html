@@ -3,45 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Molengo&family=Poly:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Molengo&family=Poly:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Poem generator</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>AI poem generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          required
-          autofocus
-          autocomplete="off"
-        />
-        <input type="sumbit" />
-      </form>
-      <div id="poem">
-        This is where the poem will be <br />
-        and here
-      </div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/RRachelvd" target="_blank">
-        Rachèl van Dijkhorst</a
-      >, open-sourced on
-      <a
-        href="https://github.com/RRachelvd/poem-generator-project"
-        target="_blank"
-        >Github</a
-      >
+    <div class="container">
+      <header>
+        <h1>AI poem generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            required
+            autofocus
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" value="Generate" class="button" />
+        </form>
+        <div class="poem" id="poem">
+          This is where the poem will be <br />
+          and here
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/RRachelvd" target="_blank">
+          Rachèl van Dijkhorst</a
+        >, open-sourced on
+        <a
+          href="https://github.com/RRachelvd/poem-generator-project"
+          target="_blank"
+          >Github</a
+        >
 
-      and hosted on
-      <a href="https://poem-generator-by-rachel.netlify.app" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+        and hosted on
+        <a href="https://poem-generator-by-rachel.netlify.app" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,3 +1,80 @@
 body {
-  background-color: aquamarine;
+  background: url(pinkflowers-background.jpg) pink;
+  background-repeat: no-repeat;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+main {
+  margin-bottom: 55px;
+}
+
+form {
+  padding: 30px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  display: flex;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 45px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid grey;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 25px;
+  line-height: 20px;
+}
+
+.button {
+  margin-left: 10px;
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 25px;
+  width: 120px;
+  font-size: 16px;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 700px;
+}
+
+.poem {
+  font-size: 22px;
+  line-height: 1.75;
+  padding: 25px 30px;
+  background-color: white;
+  font-weight: 500;
+  border-left: 3.5px solid rebeccapurple;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+footer {
+  text-align: center;
+  font-family: monospace;
+  padding-top: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
 }
