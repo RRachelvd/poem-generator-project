@@ -1,5 +1,5 @@
 body {
-  background: url(pinkflowers-background.jpg) pink;
+  background: url(pinkflowers-background.jpg) #ad8c97;
   background-repeat: no-repeat;
   font-family: "Molengo", serif;
 }
@@ -23,30 +23,31 @@ main {
 
 form {
   padding: 30px;
-  background-color: aliceblue;
   border-radius: 6px;
+  background-color: rgb(180, 140, 141, 0.2);
   display: flex;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   margin-bottom: 45px;
 }
 
 .instructions {
-  padding: 16px;
-  border: 1px solid grey;
+  padding: 16px 24px;
+  border: none;
   width: 80%;
-  font-size: 16px;
-  border-radius: 25px;
+  font-size: 17px;
+  border-radius: 35px;
   line-height: 20px;
   font-family: "Molengo", serif;
 }
 
 .button {
   margin-left: 10px;
-  background-color: rebeccapurple;
+  background-color: #974152;
+
   border: none;
   color: white;
   padding: 14px 24px;
-  border-radius: 25px;
+  border-radius: 35px;
   width: 120px;
   font-size: 17px;
   font-family: "Molengo", serif;
@@ -64,7 +65,7 @@ form {
   padding: 25px 30px;
   background-color: white;
   font-weight: 500;
-  border-left: 3.5px solid rebeccapurple;
+  border-left: 3.5px solid #974152;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   font-family: "Edu NSW ACT Foundation", cursive;
 }
@@ -73,11 +74,11 @@ footer {
   text-align: center;
   padding-top: 20px;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 a {
   text-decoration: none;
-  color: rebeccapurple;
+  color: #974152;
   font-weight: 600;
 }
