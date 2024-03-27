@@ -22,7 +22,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>Poem generator</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -40,13 +40,11 @@
             autofocus
             autocomplete="off"
             class="instructions"
+            id="instructions"
           />
           <input type="submit" value="Generate" class="button" />
         </form>
-        <div class="poem" id="poem">
-          This is where the poem will be <br />
-          and here
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         Coded by

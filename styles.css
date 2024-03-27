@@ -62,13 +62,17 @@ form {
 
 .poem {
   font-size: 22px;
-  line-height: 1.75;
+  line-height: 1.8;
   padding: 25px 30px;
   background-color: white;
   font-weight: 500;
   border-left: 3.5px solid #974152;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.dots {
+  margin-left: 0;
 }
 
 footer {
