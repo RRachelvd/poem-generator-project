@@ -72,8 +72,8 @@ form {
   font-family: "Edu NSW ACT Foundation", cursive;
 }
 
-.dots {
-  margin-left: 0;
+.hidden {
+  display: none;
 }
 
 footer {
