@@ -96,3 +96,7 @@ a {
   color: #974152;
   font-weight: 600;
 }
+
+a:active {
+  color: #974152;
+}
