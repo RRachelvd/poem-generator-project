@@ -22,13 +22,21 @@ main {
   margin-bottom: 55px;
 }
 
-form {
-  padding: 30px;
+.form-wrapper {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+  padding: 30px 30px 12px 30px;
   border-radius: 6px;
   background-color: rgb(180, 140, 141, 0.2);
+}
+
+form {
   display: flex;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-  margin-bottom: 45px;
+}
+
+p {
+  font-size: small;
+  color: white;
 }
 
 .instructions {
@@ -56,7 +64,7 @@ form {
 }
 
 .container {
-  margin: 100px auto;
+  margin: 90px auto;
   max-width: 700px;
 }
 
@@ -78,7 +86,7 @@ form {
 
 footer {
   text-align: center;
-  padding-top: 15px;
+  padding-top: 12px;
   color: white;
   font-size: 17px;
 }
